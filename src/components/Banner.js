@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <div className="h-full grid grid-cols-1 gap-4 content-center text-slate-400">
         <div>
-            <p className="text-5xl" style={{ fontWeight: 500 }}>
+            <p className="text-5xl sm:text-3xl md:text-4xl" style={{ fontWeight: 500 }}>
                 Hello, world! I am
             </p>
         </div>
