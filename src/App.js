@@ -24,7 +24,7 @@ function App() {
         <div className="h-fit">
         <Projects />
         </div>
-        <div className="h-screen mt-56">
+        <div className="h-screen">
         <Contact />
         </div>
       </div>
