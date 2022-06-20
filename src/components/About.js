@@ -1,4 +1,4 @@
-import me from "../assets/Deyi.png";
+import me from "../assets/deyi.png";
 
 const About = () => {
   return (
