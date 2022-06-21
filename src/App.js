@@ -15,13 +15,13 @@ function App() {
         <div className="mx-48 h-screen">
         <Banner />
         </div>
-        <div className="h-fit mb-56">
+        <div className="h-screen mb-10">
         <About />
         </div>
         <div className="h-screen">
         <Technologies />
         </div>
-        <div className="h-fit">
+        <div className="h-fit mb-20">
         <Projects />
         </div>
         <div className="h-screen">
