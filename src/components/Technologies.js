@@ -21,7 +21,7 @@ const Technologies = () => {
         <table class="w-auto border-collapse">
           <thead>
             <tr>
-              <th className="w-36 h-36">ReactJS
+              <th className="w-36 h-36 hover:scale-110 transition duration-300 ease-in-out">ReactJS
               <IconContext.Provider
                   value={{
                     className:
@@ -33,7 +33,7 @@ const Technologies = () => {
                   </div>
                 </IconContext.Provider>
               </th>
-              <th className="border-2 border-t-0 border-slate-700 w-36 h-36 group">
+              <th className="border-2 border-t-0 border-slate-700 w-36 h-36 group hover:scale-110 transition duration-300 ease-in-out">
                 React Native
                 <IconContext.Provider
                   value={{
@@ -46,7 +46,7 @@ const Technologies = () => {
                   </div>
                 </IconContext.Provider>
               </th>
-              <th className="w-36 h-36">Javascript
+              <th className="w-36 h-36 hover:scale-110 transition duration-300 ease-in-out">Javascript
               <IconContext.Provider
                   value={{
                     className:
@@ -58,7 +58,7 @@ const Technologies = () => {
                   </div>
                 </IconContext.Provider>
               </th>
-              <th className="border-2 border-t-0 border-slate-700 w-36 h-36">
+              <th className="border-2 border-t-0 border-slate-700 w-36 h-36 hover:scale-110 transition duration-300 ease-in-out">
                 Laravel
                 <IconContext.Provider
                   value={{
@@ -71,7 +71,7 @@ const Technologies = () => {
                   </div>
                 </IconContext.Provider>
               </th>
-              <th className="w-36 h-36">PHP
+              <th className="w-36 h-36 hover:scale-110 transition duration-300 ease-in-out">PHP
               <IconContext.Provider
                   value={{
                     className:
@@ -87,7 +87,7 @@ const Technologies = () => {
           </thead>
           <tbody>
             <tr>
-              <th className="border-2 border-l-0 border-b-0 border-slate-700 w-36 h-36">
+              <th className="border-2 border-l-0 border-b-0 border-slate-700 w-36 h-36 hover:scale-110 transition duration-300 ease-in-out">
                 MySQL
                 <IconContext.Provider
                   value={{
@@ -100,7 +100,7 @@ const Technologies = () => {
                   </div>
                 </IconContext.Provider>
               </th>
-              <th className="w-36 h-36">Firebase
+              <th className="w-36 h-36 hover:scale-110 transition duration-300 ease-in-out">Firebase
               <IconContext.Provider
                   value={{
                     className:
@@ -112,7 +112,7 @@ const Technologies = () => {
                   </div>
                 </IconContext.Provider>
               </th>
-              <th className="border-2 border-b-0 border-slate-700 w-36 h-36">
+              <th className="border-2 border-b-0 border-slate-700 w-36 h-36 hover:scale-110 transition duration-300 ease-in-out">
                 Git & Github
                 <IconContext.Provider
                   value={{
@@ -125,7 +125,7 @@ const Technologies = () => {
                   </div>
                 </IconContext.Provider>
               </th>
-              <th className="w-36 h-36">HTML
+              <th className="w-36 h-36 hover:scale-110 transition duration-300 ease-in-out">HTML
               <IconContext.Provider
                   value={{
                     className:
@@ -137,7 +137,7 @@ const Technologies = () => {
                   </div>
                 </IconContext.Provider>
               </th>
-              <th className="border-2 border-r-0 border-b-0 border-slate-700 w-36 h-36">
+              <th className="border-2 border-r-0 border-b-0 border-slate-700 w-36 h-36 hover:scale-110 transition duration-300 ease-in-out">
                 CSS
                 <IconContext.Provider
                   value={{
