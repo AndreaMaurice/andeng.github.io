@@ -1,6 +1,6 @@
-import omega from "../assets/omega.png";
-import portfolio from "../assets/portfolio.png";
-import aim from "../assets/aim.png";
+import Omega from "../assets/omega.png";
+import Portfolio from "../assets/portfolio.png";
+import Aim from "../assets/aim.png";
 
 const Projects = () => {
   return (
@@ -13,7 +13,7 @@ const Projects = () => {
       <div className="grid grid-cols-2 gap-10">
         <div>
           <img
-            src={aim}
+            src={Aim}
             alt="Association of ICT Majors Website"
             width={750}
             className="place-self-center drop-shadow-2xl"
@@ -23,7 +23,7 @@ const Projects = () => {
         </div>
         <div>
           <img
-            src={portfolio}
+            src={Portfolio}
             alt="Portfolio Website"
             width={750}
             className="place-self-center drop-shadow-2xl"
@@ -33,7 +33,7 @@ const Projects = () => {
         </div>
         <div>
           <img
-            src={omega}
+            src={Omega}
             alt="Omega Digi Bible Website"
             width={750}
             className="place-self-center drop-shadow-2xl"
