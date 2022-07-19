@@ -1,4 +1,4 @@
-import me from "../assets/deyi.png";
+import Andrea from "../assets/deyi.png";
 
 const About = () => {
   return (
@@ -21,7 +21,7 @@ const About = () => {
       </div>
       <div className="my-profile grid">
         <img
-          src={me}
+          src={Andrea}
           alt="Andrea Maurice De Guzman"
           width={350}
           className="border-rose-500 border-8 place-self-center drop-shadow-2xl"
