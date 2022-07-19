@@ -1,13 +1,13 @@
 import { IconContext } from "react-icons";
-import { FaReact } from 'react-icons/fa'
-import { FaLaravel } from 'react-icons/fa'
-import { SiJavascript } from 'react-icons/si'
-import { SiFirebase } from 'react-icons/si'
-import { DiPhp } from 'react-icons/di'
-import { GrMysql } from 'react-icons/gr'
-import { BsGithub } from 'react-icons/bs'
-import { DiHtml5 } from 'react-icons/di'
-import { DiCss3 } from 'react-icons/di'
+import { FaReact } from 'react-icons/fa';
+import { FaLaravel } from 'react-icons/fa';
+import { SiJavascript } from 'react-icons/si';
+import { SiFirebase } from 'react-icons/si';
+import { DiPhp } from 'react-icons/di';
+import { GrMysql } from 'react-icons/gr';
+import { BsGithub } from 'react-icons/bs';
+import { DiHtml5 } from 'react-icons/di';
+import { DiCss3 } from 'react-icons/di';
 
 const Technologies = () => {
   return (
