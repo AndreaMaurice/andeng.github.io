@@ -1,9 +1,4 @@
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-  } from "react-router-dom";
+
 
 const Banner = () => {
   return (
@@ -27,10 +22,7 @@ const Banner = () => {
         {/* <Link to="/connect">Contact Me!</Link> */}
         Contact Me!
         </div>
-        {/* <Switch>
-          <Route exact path="/connect">
-          </Route>
-        </Switch> */}
+        
     </div>
   )
 }
