@@ -2,7 +2,7 @@ import { IconContext } from "react-icons";
 import { TbBrandGithub } from 'react-icons/tb';
 import { FiLinkedin } from 'react-icons/fi';
 import { FiMail } from 'react-icons/fi';
-import logo from './../../assets/logo.png'
+import logo from '../assets/logo.png'
 
 const LeftNavigation = () => {
   return (

@@ -1,6 +1,6 @@
-import omega from "./../../assets/omega.png";
-import portfolio from "./../../assets/portfolio.png";
-import aim from "./../../assets/aim.png";
+import omega from "../assets/omega.png";
+import portfolio from "../assets/portfolio.png";
+import aim from "../assets/aim.png";
 
 const Projects = () => {
   return (
