@@ -1,4 +1,4 @@
-import Andrea from "../assets/deyi.png";
+import Andrea from "../assets/Deyi.png";
 
 const About = () => {
   return (
