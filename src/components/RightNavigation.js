@@ -8,9 +8,9 @@ const RightNavigation = () => {
         <div className="mx-auto" style={{ writingMode: "vertical-rl" }}>
           <a
             className="text-rose-500 hover:text-rose-300"
-            href={"mailto:andreamauricedg@gmail.com"}
+            href={"mailto:andreamauricedeguzman@gmail.com"}
           >
-            andreamauricedg@gmail.com
+            andreamauricedeguzman@gmail.com
           </a>
         </div>
       </div>
