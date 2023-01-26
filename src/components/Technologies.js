@@ -8,6 +8,8 @@ import { GrMysql } from 'react-icons/gr';
 import { BsGithub } from 'react-icons/bs';
 import { DiHtml5 } from 'react-icons/di';
 import { DiCss3 } from 'react-icons/di';
+import { TbBrandFigma } from 'react-icons/tb';
+import { CgFigma } from 'react-icons/cg';
 
 const Technologies = () => {
   return (
@@ -38,7 +40,7 @@ const Technologies = () => {
                 <IconContext.Provider
                   value={{
                     className:
-                      "text-rose-500 w-10 h-11 mx-auto",
+                      "text-rose-500 w-10 h-11 mx-auto pt-2",
                   }}
                 >
                   <div>
@@ -50,7 +52,7 @@ const Technologies = () => {
               <IconContext.Provider
                   value={{
                     className:
-                      "text-rose-500 w-10 h-11 mx-auto",
+                      "text-rose-500 w-10 h-11 mx-auto pt-2",
                   }}
                 >
                   <div>
@@ -63,7 +65,7 @@ const Technologies = () => {
                 <IconContext.Provider
                   value={{
                     className:
-                      "text-rose-500 w-10 h-11 mx-auto",
+                      "text-rose-500 w-10 h-11 mx-auto pt-2",
                   }}
                 >
                   <div>
@@ -75,11 +77,24 @@ const Technologies = () => {
               <IconContext.Provider
                   value={{
                     className:
-                      "text-rose-500 w-10 h-11 mx-auto",
+                      "text-rose-500 w-10 h-11 mx-auto pt-2",
                   }}
                 >
                   <div>
                     <DiPhp />
+                  </div>
+                </IconContext.Provider>
+              </th>
+              <th className="border-2 border-r-0 border-t-0 border-slate-700 w-36 h-36 hover:scale-110 transition duration-300 ease-in-out">
+                Prototyping
+                <IconContext.Provider
+                  value={{
+                    className:
+                      "text-rose-500 w-10 h-11 mx-auto pt-2",
+                  }}
+                >
+                  <div>
+                    <CgFigma />
                   </div>
                 </IconContext.Provider>
               </th>
@@ -92,7 +107,7 @@ const Technologies = () => {
                 <IconContext.Provider
                   value={{
                     className:
-                      "text-rose-500 w-10 h-11 mx-auto",
+                      "text-rose-500 w-10 h-11 mx-auto pt-2",
                   }}
                 >
                   <div>
@@ -104,7 +119,7 @@ const Technologies = () => {
               <IconContext.Provider
                   value={{
                     className:
-                      "text-rose-500 w-10 h-11 mx-auto",
+                      "text-rose-500 w-10 h-11 mx-auto pt-2",
                   }}
                 >
                   <div>
@@ -117,7 +132,7 @@ const Technologies = () => {
                 <IconContext.Provider
                   value={{
                     className:
-                      "text-rose-500 w-10 h-11 mx-auto",
+                      "text-rose-500 w-10 h-11 mx-auto pt-2",
                   }}
                 >
                   <div>
@@ -129,7 +144,7 @@ const Technologies = () => {
               <IconContext.Provider
                   value={{
                     className:
-                      "text-rose-500 w-10 h-11 mx-auto",
+                      "text-rose-500 w-10 h-11 mx-auto pt-2",
                   }}
                 >
                   <div>
@@ -137,16 +152,28 @@ const Technologies = () => {
                   </div>
                 </IconContext.Provider>
               </th>
-              <th className="border-2 border-r-0 border-b-0 border-slate-700 w-36 h-36 hover:scale-110 transition duration-300 ease-in-out">
+              <th className="border-2 border-b-0 border-slate-700 w-36 h-36 hover:scale-110 transition duration-300 ease-in-out">
                 CSS
                 <IconContext.Provider
                   value={{
                     className:
-                      "text-rose-500 w-10 h-11 mx-auto",
+                      "text-rose-500 w-10 h-11 mx-auto pt-2",
                   }}
                 >
                   <div>
                     <DiCss3 />
+                  </div>
+                </IconContext.Provider>
+              </th>
+              <th className="w-36 h-36 hover:scale-110 transition duration-300 ease-in-out">UI Design
+              <IconContext.Provider
+                  value={{
+                    className:
+                      "text-rose-500 w-10 h-11 mx-auto pt-2",
+                  }}
+                >
+                  <div>
+                    <TbBrandFigma />
                   </div>
                 </IconContext.Provider>
               </th>
