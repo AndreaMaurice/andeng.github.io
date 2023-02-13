@@ -1,34 +1,17 @@
-import { Link } from "react-scroll";
+import React from "react";
 import { IconContext } from "react-icons";
 import { TbBrandGithub } from "react-icons/tb";
 import { FiLinkedin } from "react-icons/fi";
 import { FiMail } from "react-icons/fi";
-import Logo from "../assets/Logo.svg";
 
-const LeftNavigation = () => {
+const Footer = () => {
   return (
-    <div className="h-screen sm:w-24 lg:ml-0 ml-3 flex flex-col fixed">
-      <div className="flex-1">
-        <Link
-          to="banner"
-          spy={true}
-          activeClass="active"
-          smooth={true}
-          duration={500}
-        >
-          <img
-            src={Logo}
-            width={50}
-            className="mx-auto mt-5"
-            alt="Andrea's Logo"
-          />
-        </Link>
-      </div>
-      <div className="flex-1 lg:border-r-2 lg:border-slate-300 content-center space-y-4 invisible lg:visible">
+    <div className="flex flex-col pb-5">
+      <div className="flex flex-row collapse sm:invisible place-content-center text-center items-end space-x-5">
         <IconContext.Provider
           value={{
             className:
-              "text-slate-700 w-10 h-11 mx-auto hover:text-orange-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110",
+              "text-slate-500 w-10 h-11 mx-auto hover:text-orange-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 m-2",
           }}
         >
           <div>
@@ -44,7 +27,7 @@ const LeftNavigation = () => {
         <IconContext.Provider
           value={{
             className:
-              "text-slate-700 w-9 h-9 mx-auto hover:text-orange-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110",
+              "text-slate-500 w-9 h-9 mx-auto hover:text-orange-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 m-2",
           }}
         >
           <div>
@@ -60,7 +43,7 @@ const LeftNavigation = () => {
         <IconContext.Provider
           value={{
             className:
-              "text-slate-700 w-9 h-9 mx-auto hover:text-orange-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110",
+              "text-slate-500 w-9 h-9 mx-auto hover:text-orange-600 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 m-2",
           }}
         >
           <div>
@@ -74,8 +57,19 @@ const LeftNavigation = () => {
           </div>
         </IconContext.Provider>
       </div>
+      <div className="text-center collapse sm:invisible">
+        <a
+          className="text-slate-900 hover:text-orange-600"
+          href={"mailto:andreamauricedeguzman@gmail.com"}
+        >
+          andreamauricedeguzman@gmail.com
+        </a>
+      </div>
+      <div className="text-center">
+        <p>Created by me &#128518;</p>
+      </div>
     </div>
   );
 };
 
-export default LeftNavigation;
+export default Footer;

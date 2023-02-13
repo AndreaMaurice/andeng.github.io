@@ -1,5 +1,10 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { TbH4 } from "react-icons/tb";
+import { IconContext } from "react-icons";
+import { TbBrandGithub } from "react-icons/tb";
+import { FiLinkedin } from "react-icons/fi";
+import { FiMail } from "react-icons/fi";
 
 const Contact = () => {
   const form = useRef();
@@ -17,27 +22,63 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          alert('You have successfully sent your message!');
+          alert("You have successfully sent your message!");
         },
         (error) => {
           console.log(error.text);
         }
       );
+
+    e.target.reset();
   };
 
   return (
-    <div className="h-full mx-48 grid grid-cols-1 text-center place-content-center text-slate-400">
-      <p className="text-5xl text-rose-500 mb-10 font-bold">
+    <div
+      className="h-full sm:mx-48 grid grid-cols-1 text-center place-content-center text-slate-900"
+      id="contact-me"
+    >
+      <h4 className="sm:text-5xl text-2xl text-slate-900 mb-10 font-bold">
         Let's get in touch!
-      </p>
-      <form ref={form} onSubmit={sendEmail} className="grid grid-cols-1 text-left mx-auto w-6/12">
-        <label>Name</label>
-        <input type="text" name="user_name" className="h-10 px-4 bg-slate-800 border-slate-700 border-2 mb-3 mt-1"/>
-        <label>Email</label>
-        <input type="email" name="user_email" className="h-10 px-4 bg-slate-800 border-slate-700 border-2 mb-3 mt-1"/>
-        <label>Message</label>
-        <textarea name="message"  className="h-24 px-4 py-2 bg-slate-800 border-slate-700 border-2 mb-5 mt-1"/>
-        <input type="submit" value="Send" className="border-2 border-rose-500 text-rose-500 w-32 mx-auto h-10 hover:bg-rose-400 hover:border-rose-400 hover:text-slate-100"/>
+      </h4>
+      <form
+        ref={form}
+        onSubmit={(e) => {
+          sendEmail(e.target.value);
+        }}
+        className="grid grid-cols-1 sm:mx-auto sm:w-96"
+      >
+        {/* <label>What's your name?</label> */}
+        <input
+          type="text"
+          name="user_name"
+          className="h-10 px-4 bg-slate-100 mb-3 mt-1 placeholder:text-slate-600"
+          placeholder="Type your name here"
+        />
+        {/* <label>What's your email address?</label> */}
+        <input
+          type="email"
+          name="user_email"
+          className="h-10 px-4 bg-slate-100 mb-3 mt-1 placeholder:text-slate-600"
+          placeholder="Type your email here"
+        />
+        {/* <label>Email Subject</label> */}
+        <input
+          type="email"
+          name="subject"
+          className="h-10 px-4 bg-slate-100 mb-3 mt-1 placeholder:text-slate-600"
+          placeholder="Type email subject here"
+        />
+        {/* <label>Message</label> */}
+        <textarea
+          name="message"
+          className="h-24 px-4 py-2 bg-slate-100 mb-5 mt-1 placeholder:text-slate-600"
+          placeholder="Type your message here"
+        />
+        <input
+          type="submit"
+          value="Send"
+          className="border-2 border-slate-900 text-slate-900 w-32 mx-auto h-10 hover:bg-orange-400 hover:border-orange-400 hover:text-slate-50 text-semibold"
+        />
       </form>
     </div>
   );
