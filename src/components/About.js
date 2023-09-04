@@ -1,9 +1,9 @@
-import Andrea from "../assets/Deyi.png";
+import Andrea from "../assets/Andrea.jpg";
 
 const About = () => {
   return (
     <div
-      className="h-full sm:w-auto sm:mx-48 flex flex-col-reverse sm:grid sm:grid-cols-1 gap-4 content-center lg:grid-cols-2 place-content-center text-slate-900 text-justify"
+      className="h-full md:h-screen sm:w-auto sm:mx-48 flex flex-col-reverse sm:grid sm:grid-cols-1 gap-4 content-center lg:grid-cols-2 place-content-center text-slate-900 text-justify"
       id="about-me"
     >
       <div className="about-me">
@@ -11,15 +11,13 @@ const About = () => {
           About <span className="text-orange-500">Me!</span>
         </h4>
         <p className="mb-4">
-          I'm currently a BS Information System's student and a passionate Web
+          I'm a BS Information Systems fresh graduate and a passionate Web
           Developer and Designer at that. I started my coding journey when I
           took Information and Communications Technonlogy during my SHS years
           and was inspired by my friends to continue this path.
         </p>
         <p className="mb-4">
-          As of now, I'm working into becoming a freelancer by providing
-          services related to applications development. So don't hesitate to dm
-          me if you have projects in mind.
+          As of now, I'm working into becoming a web developer by continuously improving my skills to provide better experience through my applications.
         </p>
       </div>
       <div className="my-profile grid">

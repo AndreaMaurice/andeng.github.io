@@ -6,6 +6,7 @@ import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Resume from "./assets/resume.pdf";
 
 function App() {
   return (
@@ -13,6 +14,11 @@ function App() {
       <LeftNavigation />
       <RightNavigation />
       <div className="grid grid-cols-1 w-full">
+        <div className="w-full pt-9 ">
+          <div className="text-center font-semibold">
+            Check out my <a href={Resume} target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:font-extrabold hover:underline">RESUME!</a>
+          </div>
+        </div>
         <div className="lg:mx-48 ml-10 mr-20 h-screen">
           <Banner />
         </div>
