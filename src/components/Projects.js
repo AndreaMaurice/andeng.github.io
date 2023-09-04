@@ -1,6 +1,6 @@
 import Omega from "../assets/Omega.png";
 import Portfolio from "../assets/Portfolio.png";
-import Aim from "../assets/Aim.png";
+import Brgy from "../assets/BrgyIS.png";
 import Endur from "../assets/Endur.png";
 import LVSAS from "../assets/LVSAS.png";
 
@@ -12,7 +12,7 @@ const Projects = () => {
     >
       <div>
         <h3 className="sm:text-5xl text-2xl text-center font-bold text-slate-900 leading-loose">
-          Things I've Built
+          Projects
         </h3>
         <h4 className="sm:text-3xl text-xl font-bold sm:pb-10 pt-5 text-center text-orange-500">
           Websites
@@ -22,37 +22,37 @@ const Projects = () => {
       <div className="grid sm:grid-cols-3 grid-auto-row auto-rows-max gap-10 text-center">
         <div>
           <a
-            href={"https://lvcc-aim.netlify.app"}
+            href={"https://gitlab.com/brgyis/abram"}
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
-              src={Aim}
-              alt="Association of ICT Majors Website"
+              src={Brgy}
+              alt="Barangay Information System"
               width={500}
               className="place-self-center drop-shadow-sm"
             />
             <p className="font-bold pt-5 sm:pt-7">
-              Association of ICT Majors Website
+            Barangay Information System
             </p>
           </a>
-          <p>Created with HTML, CSS, and JS</p>
+          <p>Created with PHP Laravel and TailwindCSS</p>
         </div>
         <div>
           <a
-            href={"https://andreamaurice.vercel.app"}
+            href={"https://github.com/J1hu/Capstone-Project-Application-System"}
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
-              src={Portfolio}
-              alt="Portfolio Website"
+              src={LVSAS}
+              alt="Scholarship Application System"
               width={500}
               className="place-self-center drop-shadow-sm"
             />
-            <p className="font-bold pt-5 sm:pt-7">Portfolio Website</p>
+            <p className="font-bold pt-5 sm:pt-7">LVCC Scholarship Application System</p>
           </a>
-          <p>Created with ReactJS and TailwindCSS</p>
+          <p>Created with PHP Laravel and TailwindCSS</p>
         </div>
         <div>
           <a

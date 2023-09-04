@@ -52,27 +52,27 @@ const Contact = () => {
           type="text"
           name="user_name"
           className="h-10 px-4 bg-slate-100 mb-3 mt-1 placeholder:text-slate-600"
-          placeholder="Type your name here"
+          placeholder="Name"
         />
         {/* <label>What's your email address?</label> */}
         <input
           type="email"
           name="user_email"
           className="h-10 px-4 bg-slate-100 mb-3 mt-1 placeholder:text-slate-600"
-          placeholder="Type your email here"
+          placeholder="Email"
         />
         {/* <label>Email Subject</label> */}
         <input
           type="email"
           name="subject"
           className="h-10 px-4 bg-slate-100 mb-3 mt-1 placeholder:text-slate-600"
-          placeholder="Type email subject here"
+          placeholder="Subject"
         />
         {/* <label>Message</label> */}
         <textarea
           name="message"
           className="h-24 px-4 py-2 bg-slate-100 mb-5 mt-1 placeholder:text-slate-600"
-          placeholder="Type your message here"
+          placeholder="Message"
         />
         <input
           type="submit"
