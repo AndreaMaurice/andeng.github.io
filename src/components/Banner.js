@@ -19,7 +19,7 @@ const Banner = () => {
       <div className="lg:w-3/5">
         <p className="lg:text-2xl leading-snug font-semibold">
           I am a web <span className="text-orange-500">developer</span> and{" "}
-          <span className="text-orange-500">designer</span> from Zambales,
+          <span className="text-orange-500">designer</span> from Tarlac City,
           Philippines.
         </p>
       </div>
