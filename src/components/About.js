@@ -14,7 +14,7 @@ const About = () => {
           I'm a BS Information Systems fresh graduate and a passionate Web
           Developer and Designer at that. I started my coding journey when I
           took Information and Communications Technonlogy during my SHS years
-          and was inspired by my friends to continue this path.
+          and was inspired by my friends to continue this path. Hello
         </p>
         <p className="mb-4">
           As of now, I'm working into becoming a web developer by continuously improving my skills to provide better experience through my applications.
