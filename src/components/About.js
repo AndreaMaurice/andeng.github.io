@@ -11,13 +11,13 @@ const About = () => {
           About <span className="text-orange-500">Me!</span>
         </h4>
         <p className="mb-4">
-          I'm a BS Information Systems fresh graduate and a passionate Web
+          I'm a BS Information Systems graduate and a passionate Web
           Developer and Designer at that. I started my coding journey when I
           took Information and Communications Technonlogy during my SHS years
           and was inspired by my friends to continue this path.
         </p>
         <p className="mb-4">
-          As of now, I'm working into becoming a web developer by continuously improving my skills to provide better experience through my applications.
+          As of now, I'm working into becoming a better developer who's continuously improving IT skills to provide better experiences through my applications.
         </p>
       </div>
       <div className="my-profile grid">
